@@ -1,0 +1,71 @@
+* {  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+}
+
+.banner1 {
+margin: auto;
+padding: 15px;
+background-color: #f7f4ec;
+border-bottom: 1px solid black;
+}
+
+.banner1-button {
+border-radius: 20px;
+background-color: white;
+border-color: #2f5785;
+padding: 8px;
+justify-content: right;
+}
+
+.banner1-button:hover {
+background-color: #2f5785;
+border-color: aliceblue;
+color: aliceblue;
+cursor: pointer;
+}
+
+.header1 {
+text-align: center;
+font-size: 1.5rem;
+background-image: url("1.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+
+margin: 0 auto 0 auto; 
+padding: 100px;
+border-bottom: 10px solid #2f5785;
+color: white;
+}
+
+.projects1-section {
+background-color: aliceblue; 
+padding: 20px;
+margin: auto;
+color: black;
+
+}
+
+.projects1-card {
+display: flex;
+background-color: white;
+margin: 50px;
+text-spacing-trim: -20px;
+line-height: 1.6;
+
+flex-direction: column;
+padding: 20px;
+margin-bottom: 15px;
+border-radius: 10px;
+box-shadow: 3px 3px #2f5785;
+border: 1px solid #2f5785;
+}
+
+.projects-photos {
+justify-content: right;
+align-items: right;
+
+display: block;
+text-align: center;
+}
+

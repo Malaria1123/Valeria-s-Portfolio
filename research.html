@@ -11,6 +11,9 @@
         <header class="banner1">
         <div>
             <a href="index.html"><button class="banner1-button">Home</button></a>
+             <a href="volunteer.html"><button class="banner1-button">Volunteering</button></a>
+            <a href="clubs.html"> <button class="banner1-button">Clubs</button></a>
+           
         </div>
         </header>
         <div class="header1">
@@ -22,27 +25,183 @@
     <section class="projects1-section">
         <div class="projects1-card">
         <h1>Bio3 Spring Forward Workshop</h1>
-            <h4>Feburary 24, 2025 - Feburary 28, 2025</h3>
-        <li>This workshop was a mix of career development and an intro to bioinformatics.<span class="ellipsis">...</span> <span class="hidden-text"></span> This workshop helped me prepare for creating resumes,
-                CVs and portfolios. It also gave me an introduction to Jalview, IQ Tree, FigTree, PyMol, and Spyder. Outside of research and career development, 
-                I also worked in a group and was able to take charge of my group a couple times. I was able to take instructions and to teach my peers. This workshop was 8
-                hours for a full week which means I got 40 research hours out of it.
-                <div class="projects-photos">
-                    <h3>Photos</h3>
-                    <img src="bio3me.png" alt="Bio3 me" width="300px" > <img src="bio3poster.png" alt="Bio3 board" width="300px"> <img src="Bio3cert.png" alt="Bio3 Certification" width="300px">
-                </div>
-        </li>
-        </div>
-    </section>
+            <h3>February 24, 2025 - February 28, 2025</h3>
+        <li>The goal of this research was to find a target area on flaviviruses for an antiviral to bind to. All the 
+            context for this research can be found in the 
+            recounting below. In this workshop, I worked in a group of four and the group of four split into pairs. 
+            One pair was working on one protein sequence (NS3), and 
+            the other pair was working on another protein sequence (NS5). At the end of the workshop, both groups 
+            combined their findings to draw final conclusions. The conclusions
+            for this research can be found under the <b>"Day 5"</b> subheading.  
+            This workshop was an introduction to bioinformatics. We used several bioinformatics research software like
+             <b>JalView, Fig-Tree, IQ-Tree SQ-Lite, Python's Spyder, 
+            and Pymol.</b> We were also introduced to algorithms that helped us complete the project, like 
+            <b>AlphaFold</b> and <b>PockDrug</b>. This workshop required constant teamwork and
+            diligence to get it done on time. My partner took longer to understand how to use the software, so I took 
+            on the "leader" role in my pair. I was able to help her 
+            understand all the aspects of the project and software while I was also teaching myself. Bio3 Spring 
+            Forward is also a career development workshop. We learned how to present ourselves in a 
+            professionally, how to create resumes/CV/portfolios, and how to effectively communicate in a 
+            professional setting. This workshop was 8 hours a day for five days, so
+            I received 40 research hours.
+                <br> <br>
+                <div class="projects-photos"><h2>Background Information </h2></div><br>
+                Flaviviruses are small, enveloped RNA viruses that contain pathogens that can cause several diseases 
+                in humans.
+                The flavivirus encodes 11 proteins within the RNA with 3 structural proteins and 8 non-structural 
+                proteins (the
+                replication complex). This replication complex is what we focused on in our research. Specifically, NS3
+                section (the helicase and protease) and NS5 section (methyltransferase and polymerase). Those protein 
+                structures are what replicates the RNA. 
+                <br> <br>
+                <div class="projects-photos"><img src="RNA genome.png" alt="RNA genome" width="700px"></div>
+                <br>
+                Proteins envelope the outside of the virus.  
+                Flaviviruses are spread 
+                through arthropod vectors like mosquitos and ticks. The mosquitos and ticks infect mammals (including 
+                humans) and birds.
+                To counter flaviviruses, antibodies that prevent the virus from attacking the cell are administered to 
+                an infected person. The antibodies
+                do this by binding to the virus and therefore blocking all the receptors needed to bind to healthy 
+                cells. Once the receptors
+                are fully blocked with antibodies, the virus will bind to an immune cell and become degraded and 
+                harmless. After that,
+                if the same person is infected with the same virus, the antibodies can be made, and the cycle will 
+                repeat.
+                <br> <br>
+                The problem with this process is that there are several variations of the same virus. If someone is 
+                immune to
+                one version but not another, then being infected with another version can result in <b>antibody 
+                    dependent enhancement</b>. 
+                This is when the presence  of an antibody enhances the replication of a virus instead of stopping it. 
+                This is because
+                the wrong antibodies will bind to a virus which leaves healthy cells and immune cells susceptible to 
+                the virus to 
+                bind to them. 
+                <br> <br>
+                Protein structures are important in this research because the structure of the protein determines the
+                function of the protein. We used <b>AlphaFold</b> to determine protein structure. AlphaFold is an AI created by DeepMind
+                that predicts the structure of protein's alpha-helixes, Beta-strands, and coils with high accuracy. <br>
 
-    <section class="projects1-section">
-        <div class="projects1-card">
-        <h1>Title</h1>
-            <h4>Date-Date</h3>
-        <li>description
+                <div class="projects-photos"><img src="AF_confidence_preset_NS5.png" alt="AlphaFold" width="300px"></div>
+
+                <h3>• Day 1</h3>
+                On the first day, my group needed to pick a flavivirus, and my pair needed to choose a replication section (NS3 or NS5) to focus on. In our research, we focused on 
+                Zika. My partner and I chose to study the NS5 section. If an antiviral binds to the NS5 structure, it can prevent the replication of the flavivirus. 
+                The next thing we needed to do was determine an evolutionary timeline for the flavivirus. For this, we did
+                <b>multiple sequence alignment</b>. We did this using <b>JalView</b>. Looking at a base evolutionary tree (provided by the research instructor), we grabbed our virus (Zika) and 11 more
+                viruses closely related to it. We got the protein sequences for the NS5 structure from a protein sequence database (provided by the research instructor) and then aligned the 
+                sequences of all 12 viruses to find the area where all the proteins matched up (fully conserved site). When a fully (or mostly) conserved site is found, a common ancestor of the virus can be assumed.<br>
+                <div class="projects-photos"><img src="sequence.jpg" alt="sequence" width="400px"></div>
+                <br> <br>
+
+                <h3>• Day 2</h3>
+                On the second day, we focused on phylogenetics. Phylogenetics is how different species are related to each other in terms of evolution. We learned tree topology nomenclature (tree roots, 
+                internal nodes, tips, etc.) and how to use these elements to form a proportional topology tree. We also learned that the numbers (SH-like) on the nodes of the tree are used to represent confidence
+                in the generated tree. If a node has an SH-like of 85>, the tree has high accuracy confidence. If the SH-like is 75<, the tree has low accuracy confidence. To make the tree, we put our 
+                protein sequences (from day 1) into a software called <b>Fig-Tree</b> which generated the most likely evolutionary tree (based off the internal node confidence). After that, we transferred the generated tree to another
+                software called <b>IQ-Tree</b> which changed the structure of the tree from a circular shape to a traditional evolutionary tree shape. This software also allowed us to alter the length of the 
+                branches to make the tree readable and accurate in terms of proportions. <br>
+                <div class="projects-photos"><img src="zika_color_rooted_tree_3.png" alt="tree" width="400px"></div>
+                
+                <h3>• Day 3</h3>
+                Before day three started, the research instructor used <b>PockDrug</b> to find pockets in our chosen 
+                protein (NS5) that can bind to small drug-like molecules. The measure of the ability for the pocket to
+                bind to a drug is called <b>druggability</b>. Druggability is measured numerically from 0-1, where 1 
+                has the highest probability of binding to a drug. My partner and I decided to focus on pocket 18 and
+                pocket 25 of the Zika NS5 protein structure. Using an <b>SQ-Lite</b> database, we were able to find the
+                 amino acids and positions of our chosen pockets (18 and 25) on the protein structure rendered by 
+                 AlphaFold. Then, with the protein
+                sequences on JalView (from day 1), we are able to find the conservation scores for both pockets (how 
+                much the protein sequences align for all 12 viruses). 
+                <br> <br>
+                This is where the NS5 and NS3 groups combined for the project. We inputted our conservation scores into
+                a script on <b>Spyder</b> that runs the Shapiro-Wilks test on the data. Spyder is an <b>integrated 
+                development
+                environment (IDE)</b> for the Python programming language. The Shapiro-Wilks test determines if the 
+                data collected is normal. Our data did not return as normal, so we ran it through a second script to
+                run a Mann-Whitney test. The Mann-Whitney test compares the pockets to determine which ones are more 
+                or less conserved. <br>
+                <div class="projects-photos"><img src="M-W results.png" alt="M-W results" width="300px"></div>
+                <br>
+                The photo shows a <b>p-value</b> yield. The p-value is a comparison to the null hypothesis. The null 
+                hypothesis for this research is that there is no difference between the two samples being compared. 
+                The Alpha we were given was 0.05. This means that 
+                if the p-value is less than the Alpha, then the null hypothesis is rejected and there is a significant 
+                difference between the pockets being compared. According to the photo above, the first three 
+                comparisons are well below the Alpha value, and therefore the null hypothesis is rejected. However, 
+                for the last comparison, the p-value is way above the Alpha value. This means the null hypothesis 
+                is valid. Spyder then generated a box plot to organize the site conservation for each pocket. It also 
+                generated a bar chart to measure the druggability of each pocket.
+                <br>
+                <div class="projects-photos"><img src="conservation.jpg" alt="conservation" width="400px"> <img src="druggability.jpg" alt="druggability" width="300px"></div>
+                <br>
+
+                <h3>• Day 4</h3>
+                On day four, we began to put our poster board together. First, we aligned our IQ-Tree evolution tree and JalView protein sequences so each virus on the tree can match their protein sequence for each 
+                pocket. 
+                <br>
+                <div class="projects-photos"><img src="aligned tree.jpg" alt="aligned tree" width="400px"></div>
+                <br>
+                Once that was done, we opened our AlphaFold model in Pymol. Pymol is a software that allows the user to
+                 visually navigate the 3D structures created by AlphaFold. On Pymol, we inserted the positions
+                determined by SQ-Lite on day 3. These positions marked where the pockets are found on our respective 
+                protein structure (Zika NS5). Once the positions are entered, they are marked by purple squares 
+                on the protein render. We then changed the squares to spheres on each protein so they can be easily 
+                visible on the presentation board. 
+                 <br>
+                <div class="projects-photos"><img src="zika_NS5_18_spheres.png" alt="zika 18" width="400px"><img src="zika_NS5_25_spheres.png" alt="zika 25" width="400px"></div>
+                <br>
+                The colors of these renders are important. The dark blue means the prediction is highly confident, the 
+                light blue means the prediction is fairly confident, the yellow means the prediction is less confident, 
+                and the orange means the prediction is not confident. Pocket 18 is mostly dark blue but has some areas
+                 of light blue and yellow. The prediction for this being the protein structure of Zika NS5 is overall 
+                fairly confident. However, pocket 25 is entirely dark blue, which means the prediction for this being 
+                the structure of the protein is very high. This is particularly important because (as we learned in the 
+                background information) the protein structure determines the function of the protein. If the algorithm 
+                is not confident with the structure that is generated, we cannot confidently determine the 
+                function of the protein. We then added the two charts Spyder created, the AlphaFold model and the 
+                IQ-Tree/JalView evolution tree protein sequence to our board. We added a title and introduction 
+                section as well to the board. 
+                <br> <br>
+
+                <h3>• Day 5</h3>
+                On day five, we focused on drawing conclusions so that we could present the board we created at a small 
+                symposium. We found that the Zika NS5 pocket 25 had the highest conservation score and 
+                druggability of the four protein sections we were researching. Along with that, pocket 25 also had the 
+                highest confidence in the rendered AlphaFold structure. This means that of any pocket (of the four we 
+                studied)
+                pocket 25 in the Zika NS5 protein should be the one of main focus for finding an antiviral to bind to. 
+                This is because with high druggability, the antiviral is most likely to bind to this section of the 
+                protein,
+                which means it can effectively prevent the replication of the flavivirus RNA. With a high conservation 
+                score, the antiviral is likely to work against several variations of Zika and other flaviviruses. We 
+                found 
+                that NS3 pocket 21 had the lowest conservation score and that NS5 pocket 18 had the lowest druggability 
+                score. As a group, we determined that a limitation of this study was that we could only compare 12 
+                viruses
+                to each other. This is quite small in the context of the many flaviviruses out there. To address this 
+                limitation, we decided that a future direction to take this experiment in is to make the scale larger.
+                Compare many more viruses so the final determined pocket can be more general and not restricted to only 
+                12 viruses. 
+                <br> <br>
+                At the symposium, my group of four split into pairs again. This time I was partnered with a person from 
+                the NS3 section pair. The symposium board was visited by members of a different research project, 
+                professors
+                that specialize in similar fields to what we studied, and our own members of the Bio3 Spring Forward 
+                Workshop. For half of the symposium, my pair was directed to present our research findings, explain the 
+                steps we 
+                took to complete our project and to answer any questions at the end. During the other half of the 
+                symposium, my pair was to swap places with the other pair in my group. We were then instructed to walk 
+                around 
+                and listen to other's presentations and ask questions of our own. <br>
+
                 <div class="projects-photos">
+                <h2>Final Project Poster</h2>
+                <img src="bio3poster.png" alt="Bio3 Board" width="900px">
+                <br> <br>
                     <h3>Photos</h3>
-                    *insert any photos here*
+                    <img src="Bio3group.jpg" alt="Bio3 group" width="300px" > <img src="Bio3pairs.jpg" alt="Bio3 pairs" width="450px"> <img src="Bio3cert.png" alt="Bio3 Certification" width="300px">
                 </div>
         </li>
         </div>

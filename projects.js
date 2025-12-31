@@ -1,31 +1,21 @@
 export const projectsInfo = [
     {
         projectName: 'Research',
-        projectImage: 'wave.jpg',
-        projectDesc: 'I have completed 1 research project. I have 40 research hours in total!',
+        projectImage: 'research.png',
+        projectDesc: 'I have completed 1 research project. Click "More" to learn more.',
         projectLink: 'research.html',
     },
-    {
-        projectName: 'Internship',
-        projectImage: 'wave.jpg',
-        projectDesc: 'Description',
-        projectLink: 'internship.html',
-    },
+  
     {
         projectName: 'Volunteering',
-        projectImage: 'wave.jpg',
-        projectDesc: 'description',
+        projectImage: 'volunteering.png',
+        projectDesc: 'Read about my volunteering after graduating high school. Click "More" to learn more.',
         projectLink: 'volunteer.html',
-    },{
-        projectName: 'Clubs',
-        projectImage: 'wave.jpg',
-        projectDesc: 'Learn about my involvement on campus!',
-        projectLink: 'clubs.html',
     },
     {
-        projectName: 'Work',
-        projectImage: 'wave.jpg',
-        projectDesc: 'description',
-        projectLink: 'https://github.com/',
-    }
+        projectName: 'Clubs',
+        projectImage: 'clubs.png',
+        projectDesc: 'Read about my involvement on campus. Click "More" to learn more.',
+        projectLink: 'clubs.html',
+    },
 ]
